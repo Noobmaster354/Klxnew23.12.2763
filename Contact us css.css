@@ -1,0 +1,38 @@
+.contact-us {
+    padding: 50px 0;
+}
+
+.contact-us h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-us p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.contact-us .form-label {
+    font-weight: bold;
+}
+
+.contact-us .btn-primary {
+    background-color: #f37a22;
+    border-color: #f37a22;
+}
+
+.contact-us .btn-primary:hover {
+    background-color: #ff6600;
+    border-color: #ff6600;
+}
+
+.contact-us iframe {
+    width: 100%;
+    border: none;
+}
+
+.about-us {
+    padding: 40px 0;
+}

@@ -1,0 +1,80 @@
+.produkbaru{
+    margin: 70px;
+}
+.new-arrivals{
+    background: green;
+    width: 50px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.col-md-7{
+    color: #555;
+}
+.produkbaru{
+    color: orange;
+}
+.produkbaru .price{
+    color: orange;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+
+/* Desc Produk */
+
+.deskripsiproduk h6{
+    margin-top: 50px;
+    color: orange;
+}
+.deskripsiproduk p{
+    margin-top: 30px;
+}
+.deskripsiproduk hr{
+    margin-bottom: 50px;
+}
+
+/* Tabel */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+.grey-background {
+    background-color: #e6e6e6;
+}
+
+.highheels{
+    table{
+        width: 30%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+    table, th, td {
+        border: 1px solid black;
+    }
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+}
+
+.col-md-7 a{
+    text-decoration: none;
+    color: black;
+}

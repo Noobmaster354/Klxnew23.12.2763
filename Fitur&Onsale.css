@@ -1,0 +1,154 @@
+.fitur{
+    margin: 50px 0;
+}
+.fitur img{
+    width: 100%;
+    padding: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+.fitur img:hover{
+    transform: scale(1.1);
+}
+
+/* -------------------------- ON SALE ---------------------------- */
+.title{
+    background: orange;
+    color: #fff;
+    width: 180px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.title h2{
+    font-size: 24px;
+}
+
+.title::after{
+    content: '';
+    border-top: 40px solid orange;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 170px;
+}
+
+.new-arrivals{
+    margin: 50px 0;
+}
+
+/* ---------------------- Produk Atas------------------------ */
+
+.produkatas {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.produkatas img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    transition: opacity 0.5s ease;
+}
+
+.overlay .fa {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 10px 0; /* Adjust margin for spacing */
+}
+
+.overlay .btn-secondary {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.produkatas:hover .overlay {
+    opacity: 1;
+}
+
+/* ---------------------- Produk Bawah------------------------ */
+.produkbawah a{
+    color: #000;
+    text-decoration: none;
+}
+.produkbawah .fa {
+    color: orange;
+    font-size: 10px;
+}
+.produkbawah h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.produkbawah h5{
+    font-size: 15px;
+}
+
+/* ---------------------- Web-features ------------------------ */
+.web-features{
+    margin: 60px 0;
+}
+.web-features img{
+    width: 20%;
+}
+
+.feature-text{
+    margin-top: 10px;
+    float: right;
+    width: 30%;
+    padding-left: 20px;
+}
+
+.feature-box{
+    padding-top: 20px;
+}
+
+/* ---------------------- FOOTER ------------------------ */
+.footer{
+   margin-top: 50px;
+   background: #000;
+   color: #fff; 
+}
+.footer h1{
+    font-size: 15px;
+    margin: 25px 0;
+}
+.footer p{
+    font-size: 12px;
+}
+
+.footer-img img{
+    width: 80%;
+    margin-top: -40px;
+}
+.footer-img .playstore{
+    width: 80%;
+    margin-top: -120px;
+    max-height: 70%;
+}
+
+a{
+    color: #000;
+}

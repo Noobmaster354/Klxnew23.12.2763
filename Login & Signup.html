@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="Form Style.css">
+    <script>
+        // Validasi SignUps
+        function validateSignupForm() {
+            var username = document.forms["signupForm"]["txt"].value;
+            var email = document.forms["signupForm"]["email"].value;
+            var password = document.forms["signupForm"]["pw"].value;
+
+            if (username == "" && email == "" && password == "") {
+                alert("Please, FILL THE FORM FIRST!!!");
+                return false;
+            }
+            if (username == "") {
+                alert("Username must be filled out");
+                return false;
+            }
+            if (email == "") {
+                alert("Email must be filled out");
+                return false;
+            }
+            if (password == "") {
+                alert("Password must be filled out");
+                return false;
+            }
+            
+            return true;
+        }
+
+        // Validasi Login
+        function validateLoginForm() {
+            var email = document.forms["loginForm"]["email"].value;
+            var password = document.forms["loginForm"]["pw"].value;
+
+            if (email == "" && password == "") {
+                alert("Please, FILL THE FORM FIRST!!!");
+                return false;
+            }
+            if (email == "") {
+                alert("Email must be filled out");
+                return false;
+            }
+            if (password == "") {
+                alert("Password must be filled out");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+    
+    <div class="main">
+        <input type="checkbox" id="chk" aria-hidden="true">
+        <!------------------------- SIGN UP ------------------------------->
+        <div class="Signup">
+            <form name="signupForm" onsubmit="return validateSignupForm()">
+                <label for="chk" aria-hidden="true">Sign Up</label>
+                <input type="text" name="txt" placeholder="Username" >
+                <input type="email" name="email" placeholder="Email" >
+                <input type="password" name="pw" placeholder="Password" >
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+        <!------------------------- LOGIN ------------------------------->
+        <div class="login">
+            <form name="loginForm" onsubmit="return validateLoginForm()">
+                <label for="chk" aria-hidden="true">Login</label>
+                <input type="email" name="email" placeholder="Email" >
+                <input type="password" name="pw" placeholder="Password">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blazer</title>
+    <link rel="stylesheet" href="Main Style.css">
+    <link rel="stylesheet" href="Fitur&Onsale.css">
+    <link rel="stylesheet" href="Produk.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!------------------------------------------------------------------ TOP NAVBAR ------------------------------------------------------------------------------------->
+    <div class="top-nav">
+        <div class="search">
+            <i class="fa fa-bars" id="menubtn" onclick="openmenu()"></i>
+            <i class="fa fa-times" id="closebtn" onclick="closemenu()"></i>
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </div>
+       <div class="logo-container"> <a href="index.html">KLX</a></div>
+        <div class="menu">
+            <ul>
+                <li><a href="/Form/Login & Signup.html">Login</a></li>
+                <li><a href="/Form/Login & Signup.html">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="sidebarproduk" id="sidebar">
+        <ul>
+            <li>Hot items <i class="fa fa-fire"></i><i class="fa fa-arrow-right"></i>
+                <ul>
+                    <li><a href="ArmChair.html">FortyTwo ArmChair</a></li>
+                    <li><a href="Blazer.html">Hugo Boss Blazer</a></li>
+                    <li><a href="Varsity.html">Faith Varsity</a></li>
+                </ul>
+            </li>
+
+            <li>On Sale <i class="fa fa-fire"></i><i class="fa fa-arrow-right"></i>
+                <ul>
+                    <li><a href="Baju.html">Baju Polos</a></li>
+                    <li><a href="Rexus.html">Rexus Gaming Chair</a></li>
+                    <li><a href="High heels.html">High Heels</a></li>
+                    <li><a href="Vesmet.html">Fazzio Neo</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- -------------------------- Rexus ------------------------------------------ -->
+    <section class="produkbaru">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div id="product-slider" class="carousel slide carousel-fade">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/gray-blazer-front-view-casual-men-s-wear_53876-108035.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/gray-blazer-hanger-casual-men-s-fashion-wear_53876-103575.avif"
+                                    class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="#" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="#" class="d-block w-100">
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#product-slider"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#product-slider"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <p class="new-arrivals text-center">NEW</p>
+                    <h2>Grey Blazer</h2>
+                    <p>Kode Produk: JMK54324</p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                    <p class="price">Rp. 3299000</p>
+                    <p><b>Ketersediaan:</b> Ada</p>
+                    <p><b>Kondisi:</b> New</p>
+                    <p><b>Brand:</b> HugoBoss</p>
+                    <p><b><a href="https://www.hugoboss.com/id/en/extra-slim-fit-suit-in-a-wool-blend/hbeu50450994_028.html?cgid=21100">Link</a></b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------- Deskripsi + Tabel Produk ----------------------------------->
+
+    <section class="deskripsiproduk">
+        <div class="container">
+            <h6>Deskripsi Produk</h6>
+            <p><b>Spesifikasi Produk</b></p>
+            <li>Kaki terbuat dari besi baja yang kuat, dengan lapisan cat anti karat.</li>
+                <li>Handrest dilapisi busa tebal.</li>
+                <li>Dilengkapi bantal penyangga leher dan pungung.</li>
+                <li>Material: Kulit sintetis berkualitas tinggi (Polyutherane Leather)</li>
+                <li>Busa berkualitas tinggi dan tak mudah kempes</li>
+                <li>Mampu menahan beban maksimal 120Kg</li>
+            <p><b>PENGIRIMAN</b>
+                <br>Pengiriman Reguler: dalam waktu 2 - 3 hari kerja untuk Jakarta dan sekitarnya, dan dalam waktu 3 - 6 hari kerja untuk luar Jakarta.
+                Cari tahu lebih lanjut tentang Pengembalian & Penukaran kami.
+                Saat ini semua pesanan dikirim dari Indonesia.
+                </p>
+                <hr>
+        </div>
+
+        <!-------------------------------- Similar ------------------------------------->
+        <div class="container">
+            <div class="title">
+                <h2>New Arrivals</h2>
+            </div>
+            <div class="row">
+                <!-- Rexus -->
+                <div class="col-md-3">
+                    <div class="produkatas">
+                     <img src="img/still-life-seat-gamers_23-2149746624.jpg" alt="">
+                     <div class="overlay">
+                         <a href="Rexus.html"><button type="button" class="btn btn-secondary" title="Quickshop">
+                            <i class="fa fa-eye"></i>
+                        </button></a>
+                         <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                             <i class="fa fa-heart"></i>
+                         </button>
+                     </div>
+                     </div>
+                     <div class="produkbawah text-center">
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star-half-o"></i>
+                         <a href="Rexus.html"><h3>Rexus Gaming Chair</h3></a>
+                         <h5>Rp. 840.000</h5>
+                    </div> 
+                 </div>
+                 <!-- Sofa -->
+                <div class="col-md-3">
+                    <div class="produkatas">
+                     <img src="img/armchair-pillow_176382-860.jpg" alt="">
+                     <div class="overlay">
+                         <a href="ArmChair.html"><button type="button" class="btn btn-secondary" title="Quickshop">
+                            <i class="fa fa-eye"></i>
+                        </button></a>
+                         <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                             <i class="fa fa-heart"></i>
+                         </button>
+                     </div>
+                     </div>
+                     <div class="produkbawah text-center">
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star-half-o"></i>
+                         <a href="ArmChair.html"><h3>FortyTwo ArmChair</h3></a>
+                         <h5>Rp. 2.922.000</h5>
+                    </div> 
+                 </div>
+                 <div class="col-md-3">
+                    <div class="produkatas">
+                     <img src="img/gray-blazer-front-view-casual-men-s-wear_53876-108035.jpg" alt="">
+                     <div class="overlay">
+                         <button type="button" class="btn btn-secondary" title="Quickshop">
+                             <i class="fa fa-eye"></i>
+                         </button>
+                         <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                             <i class="fa fa-heart"></i>
+                         </button>
+                     </div>
+                     </div>
+                     <div class="produkbawah text-center">
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star-half-o"></i>
+                         <a href="Blazer.html"><h3>Hugo Boss Blazer</h3></a>
+                         <h5>Rp. 3.299.000</h5>
+                    </div> 
+                 </div>
+                 <div class="col-md-3">
+                    <div class="produkatas">
+                     <img src="img/still-life-rendering-jackets-display_23-2149745027.avif" alt="">
+                     <div class="overlay">
+                         <a href="Varsity.html"><button type="button" class="btn btn-secondary" title="Quickshop">
+                            <i class="fa fa-eye"></i>
+                        </button></a>
+                         <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                             <i class="fa fa-heart"></i>
+                         </button>
+                     </div>
+                     </div>
+                     <div class="produkbawah text-center">
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star"></i> 
+                         <i class="fa fa-star-half-o"></i>
+                         <a href="Varsity.html"><h3>Faith Varsity</h3></a>
+                         <h5>Rp. 579.000</h5>
+                    </div> 
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------------------------------------------  Footer ------------------------------------------------------------------------------------------>
+    <section class="footer">
+        <div class="container" text-center>
+            <div class="row">
+                <div class="col-md-3">
+                    <h1>Links</h1>
+                    <p>Privacy Policy</p>
+                    <p>Terms of Use</p>
+                    <p>Return Policy</p>
+                    <p>Kupon Diskon</p>
+                </div>
+                <div class="col-md-3">
+                    <h1>Company</h1>
+                    <p>About Us</p>
+                    <p>Contact Us</p>
+                    <p>Career</p>
+                    <p>Affiliate</p>
+                </div>
+                <div class="col-md-3">
+                    <h1>Follow Us On</h1>
+                    <p><i class="fa fa-facebook-official"></i>Facebook</p>
+                    <p>Youtube</p>
+                    <p>Instagram</p>
+                    <p>Tiktok</p>
+                </div>
+                <div class="col-md-3 footer-img">
+                    <h1>Download App</h1>
+                    <img src="img/App_Store_(iOS)-Badge-Logo.wine.svg" alt="">
+                    <img class="playstore" src="img/google-play-download-android-app-logo.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------------------------------------------------------ JAVASCRIPT ------------------------------------------------------------------------------------->
+    <script>
+        function openmenu() {
+            document.getElementById("sidebar").style.display = "block";
+            document.getElementById("menubtn").style.display = "none";
+            document.getElementById("closebtn").style.display = "block";
+        }
+        function closemenu() {
+            document.getElementById("sidebar").style.display = "none";
+            document.getElementById("menubtn").style.display = "block";
+            document.getElementById("closebtn").style.display = "none";
+        }
+
+    </script>
+</body>
+
+</html>
